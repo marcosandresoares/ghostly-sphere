@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2445A6), to(#0B1226));
+  background: linear-gradient(to bottom, #2445A6, #0B1226);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sphere {
+  -webkit-animation: spin 7s linear infinite;
+          animation: spin 7s linear infinite;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.sphere,
+.sphere-line {
+  height: 440px;
+  width: 440px;
+}
+
+.sphere-line {
+  border: 12px double #3DF2BF;
+  border-radius: 99em;
+  position: absolute;
+}
+
+.sphere-line:nth-child(1) {
+  border-color: #3DF2BF;
+  -webkit-animation: spin 7.2s linear 0.04s infinite;
+          animation: spin 7.2s linear 0.04s infinite;
+  opacity: 0.008;
+}
+
+.sphere-line:nth-child(2) {
+  border-color: #3df2b0;
+  -webkit-animation: spin 7.2s linear 0.08s infinite;
+          animation: spin 7.2s linear 0.08s infinite;
+  opacity: 0.016;
+}
+
+.sphere-line:nth-child(3) {
+  border-color: #3df2a1;
+  -webkit-animation: spin 7.2s linear 0.12s infinite;
+          animation: spin 7.2s linear 0.12s infinite;
+  opacity: 0.024;
+}
+
+.sphere-line:nth-child(4) {
+  border-color: #3df292;
+  -webkit-animation: spin 7.2s linear 0.16s infinite;
+          animation: spin 7.2s linear 0.16s infinite;
+  opacity: 0.032;
+}
+
+.sphere-line:nth-child(5) {
+  border-color: #3df283;
+  -webkit-animation: spin 7.2s linear 0.2s infinite;
+          animation: spin 7.2s linear 0.2s infinite;
+  opacity: 0.04;
+}
+
+.sphere-line:nth-child(6) {
+  border-color: #3df274;
+  -webkit-animation: spin 7.2s linear 0.24s infinite;
+          animation: spin 7.2s linear 0.24s infinite;
+  opacity: 0.048;
+}
+
+.sphere-line:nth-child(7) {
+  border-color: #3df265;
+  -webkit-animation: spin 7.2s linear 0.28s infinite;
+          animation: spin 7.2s linear 0.28s infinite;
+  opacity: 0.056;
+}
+
+.sphere-line:nth-child(8) {
+  border-color: #3df255;
+  -webkit-animation: spin 7.2s linear 0.32s infinite;
+          animation: spin 7.2s linear 0.32s infinite;
+  opacity: 0.064;
+}
+
+.sphere-line:nth-child(9) {
+  border-color: #3df246;
+  -webkit-animation: spin 7.2s linear 0.36s infinite;
+          animation: spin 7.2s linear 0.36s infinite;
+  opacity: 0.072;
+}
+
+.sphere-line:nth-child(10) {
+  border-color: #43f23d;
+  -webkit-animation: spin 7.2s linear 0.4s infinite;
+          animation: spin 7.2s linear 0.4s infinite;
+  opacity: 0.08;
+}
+
+.sphere-line:nth-child(11) {
+  border-color: #52f23d;
+  -webkit-animation: spin 7.2s linear 0.44s infinite;
+          animation: spin 7.2s linear 0.44s infinite;
+  opacity: 0.088;
+}
+
+.sphere-line:nth-child(12) {
+  border-color: #61f23d;
+  -webkit-animation: spin 7.2s linear 0.48s infinite;
+          animation: spin 7.2s linear 0.48s infinite;
+  opacity: 0.096;
+}
+
+.sphere-line:nth-child(13) {
+  border-color: #70f23d;
+  -webkit-animation: spin 7.2s linear 0.52s infinite;
+          animation: spin 7.2s linear 0.52s infinite;
+  opacity: 0.104;
+}
+
+.sphere-line:nth-child(14) {
+  border-color: #7ff23d;
+  -webkit-animation: spin 7.2s linear 0.56s infinite;
+          animation: spin 7.2s linear 0.56s infinite;
+  opacity: 0.112;
+}
+
+.sphere-line:nth-child(15) {
+  border-color: #8ef23d;
+  -webkit-animation: spin 7.2s linear 0.6s infinite;
+          animation: spin 7.2s linear 0.6s infinite;
+  opacity: 0.12;
+}
+
+.sphere-line:nth-child(16) {
+  border-color: #9df23d;
+  -webkit-animation: spin 7.2s linear 0.64s infinite;
+          animation: spin 7.2s linear 0.64s infinite;
+  opacity: 0.128;
+}
+
+.sphere-line:nth-child(17) {
+  border-color: #acf23d;
+  -webkit-animation: spin 7.2s linear 0.68s infinite;
+          animation: spin 7.2s linear 0.68s infinite;
+  opacity: 0.136;
+}
+
+.sphere-line:nth-child(18) {
+  border-color: #bbf23d;
+  -webkit-animation: spin 7.2s linear 0.72s infinite;
+          animation: spin 7.2s linear 0.72s infinite;
+  opacity: 0.144;
+}
+
+.sphere-line:nth-child(19) {
+  border-color: #cbf23d;
+  -webkit-animation: spin 7.2s linear 0.76s infinite;
+          animation: spin 7.2s linear 0.76s infinite;
+  opacity: 0.152;
+}
+
+.sphere-line:nth-child(20) {
+  border-color: #daf23d;
+  -webkit-animation: spin 7.2s linear 0.8s infinite;
+          animation: spin 7.2s linear 0.8s infinite;
+  opacity: 0.16;
+}
+
+.sphere-line:nth-child(21) {
+  border-color: #e9f23d;
+  -webkit-animation: spin 7.2s linear 0.84s infinite;
+          animation: spin 7.2s linear 0.84s infinite;
+  opacity: 0.168;
+}
+
+.sphere-line:nth-child(22) {
+  border-color: #f2ec3d;
+  -webkit-animation: spin 7.2s linear 0.88s infinite;
+          animation: spin 7.2s linear 0.88s infinite;
+  opacity: 0.176;
+}
+
+.sphere-line:nth-child(23) {
+  border-color: #f2dd3d;
+  -webkit-animation: spin 7.2s linear 0.92s infinite;
+          animation: spin 7.2s linear 0.92s infinite;
+  opacity: 0.184;
+}
+
+.sphere-line:nth-child(24) {
+  border-color: #f2ce3d;
+  -webkit-animation: spin 7.2s linear 0.96s infinite;
+          animation: spin 7.2s linear 0.96s infinite;
+  opacity: 0.192;
+}
+
+.sphere-line:nth-child(25) {
+  border-color: #f2bf3d;
+  -webkit-animation: spin 7.2s linear 1s infinite;
+          animation: spin 7.2s linear 1s infinite;
+  opacity: 0.2;
+}
+
+.sphere-line:nth-child(26) {
+  border-color: #f2b03d;
+  -webkit-animation: spin 7.2s linear 1.04s infinite;
+          animation: spin 7.2s linear 1.04s infinite;
+  opacity: 0.208;
+}
+
+.sphere-line:nth-child(27) {
+  border-color: #f2a13d;
+  -webkit-animation: spin 7.2s linear 1.08s infinite;
+          animation: spin 7.2s linear 1.08s infinite;
+  opacity: 0.216;
+}
+
+.sphere-line:nth-child(28) {
+  border-color: #f2923d;
+  -webkit-animation: spin 7.2s linear 1.12s infinite;
+          animation: spin 7.2s linear 1.12s infinite;
+  opacity: 0.224;
+}
+
+.sphere-line:nth-child(29) {
+  border-color: #f2833d;
+  -webkit-animation: spin 7.2s linear 1.16s infinite;
+          animation: spin 7.2s linear 1.16s infinite;
+  opacity: 0.232;
+}
+
+.sphere-line:nth-child(30) {
+  border-color: #f2743d;
+  -webkit-animation: spin 7.2s linear 1.2s infinite;
+          animation: spin 7.2s linear 1.2s infinite;
+  opacity: 0.24;
+}
+
+.sphere-line:nth-child(31) {
+  border-color: #f2653d;
+  -webkit-animation: spin 7.2s linear 1.24s infinite;
+          animation: spin 7.2s linear 1.24s infinite;
+  opacity: 0.248;
+}
+
+.sphere-line:nth-child(32) {
+  border-color: #f2553d;
+  -webkit-animation: spin 7.2s linear 1.28s infinite;
+          animation: spin 7.2s linear 1.28s infinite;
+  opacity: 0.256;
+}
+
+.sphere-line:nth-child(33) {
+  border-color: #f2463d;
+  -webkit-animation: spin 7.2s linear 1.32s infinite;
+          animation: spin 7.2s linear 1.32s infinite;
+  opacity: 0.264;
+}
+
+.sphere-line:nth-child(34) {
+  border-color: #f23d43;
+  -webkit-animation: spin 7.2s linear 1.36s infinite;
+          animation: spin 7.2s linear 1.36s infinite;
+  opacity: 0.272;
+}
+
+.sphere-line:nth-child(35) {
+  border-color: #f23d52;
+  -webkit-animation: spin 7.2s linear 1.4s infinite;
+          animation: spin 7.2s linear 1.4s infinite;
+  opacity: 0.28;
+}
+
+.sphere-line:nth-child(36) {
+  border-color: #f23d61;
+  -webkit-animation: spin 7.2s linear 1.44s infinite;
+          animation: spin 7.2s linear 1.44s infinite;
+  opacity: 0.288;
+}
+
+.sphere-line:nth-child(37) {
+  border-color: #f23d70;
+  -webkit-animation: spin 7.2s linear 1.48s infinite;
+          animation: spin 7.2s linear 1.48s infinite;
+  opacity: 0.296;
+}
+
+.sphere-line:nth-child(38) {
+  border-color: #f23d7f;
+  -webkit-animation: spin 7.2s linear 1.52s infinite;
+          animation: spin 7.2s linear 1.52s infinite;
+  opacity: 0.304;
+}
+
+.sphere-line:nth-child(39) {
+  border-color: #f23d8e;
+  -webkit-animation: spin 7.2s linear 1.56s infinite;
+          animation: spin 7.2s linear 1.56s infinite;
+  opacity: 0.312;
+}
+
+.sphere-line:nth-child(40) {
+  border-color: #f23d9d;
+  -webkit-animation: spin 7.2s linear 1.6s infinite;
+          animation: spin 7.2s linear 1.6s infinite;
+  opacity: 0.32;
+}
+
+.sphere-line:nth-child(41) {
+  border-color: #f23dac;
+  -webkit-animation: spin 7.2s linear 1.64s infinite;
+          animation: spin 7.2s linear 1.64s infinite;
+  opacity: 0.328;
+}
+
+.sphere-line:nth-child(42) {
+  border-color: #f23dbb;
+  -webkit-animation: spin 7.2s linear 1.68s infinite;
+          animation: spin 7.2s linear 1.68s infinite;
+  opacity: 0.336;
+}
+
+.sphere-line:nth-child(43) {
+  border-color: #f23dcb;
+  -webkit-animation: spin 7.2s linear 1.72s infinite;
+          animation: spin 7.2s linear 1.72s infinite;
+  opacity: 0.344;
+}
+
+.sphere-line:nth-child(44) {
+  border-color: #f23dda;
+  -webkit-animation: spin 7.2s linear 1.76s infinite;
+          animation: spin 7.2s linear 1.76s infinite;
+  opacity: 0.352;
+}
+
+.sphere-line:nth-child(45) {
+  border-color: #f23de9;
+  -webkit-animation: spin 7.2s linear 1.8s infinite;
+          animation: spin 7.2s linear 1.8s infinite;
+  opacity: 0.36;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #a6a6a6;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5em;
+  margin: 0 auto;
+  position: relative;
+  top: 5em;
+}
+
+a:hover {
+  color: #fff;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg) rotateZ(360deg);
+            transform: rotateY(360deg) rotateX(-360deg) rotateZ(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotateY(360deg) rotateX(-360deg) rotateZ(360deg);
+            transform: rotateY(360deg) rotateX(-360deg) rotateZ(360deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
